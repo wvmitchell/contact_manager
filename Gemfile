@@ -17,6 +17,7 @@ group :development, :test do
   gem 'unicorn'
   gem 'rspec-rails'
   gem 'sqlite3'
+  gem 'guard-rspec', require: false
 end
 
 group :production do
